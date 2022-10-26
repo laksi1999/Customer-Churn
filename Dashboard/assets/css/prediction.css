@@ -1,0 +1,45 @@
+/* body {
+    display: grid;
+    place-items: center;
+    background-color: #213b52;
+    background-image: url('../img/predict-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+a {
+    font-weight: 600;
+}
+
+.register-form {
+    width: 1500px;
+    margin: 120px auto;
+}
+
+.register-form h1 {
+    font-size: 45px;
+    letter-spacing: 2px;
+    margin: 90px 0px;
+    line-height: 60px;
+    font-weight: bold;
+}
+.register-form .form-control {
+    border: none;
+    background: none;
+    border-bottom: 1px solid #ABB2B9;
+    border-radius: 0px !important;
+    color: #fff;
+}
+.register-form .form-control:focus,
+.register-form .form-control:hover{
+  border:none;
+  margin: 0 auto;
+  background: none;
+  box-shadow: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+.result-img {
+    width: 455px;
+}
